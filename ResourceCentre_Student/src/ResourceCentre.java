@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-// hi buye 
+
 public class ResourceCentre {
 
 	public static void main(String[] args) {
