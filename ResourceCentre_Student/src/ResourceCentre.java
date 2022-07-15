@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+// hi buye 
 public class ResourceCentre {
 
 	public static void main(String[] args) {
@@ -20,7 +21,7 @@ public class ResourceCentre {
 			option = Helper.readInt("Enter an option > ");
 
 			if (option == 1) {
-				// View all itemsssssssgwegwegewgf
+				// View all items
 				ResourceCentre.viewAllCamcorder(camcorderList);
 				ResourceCentre.viewAllChromebook(chromebookList);
 
