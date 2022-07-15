@@ -20,7 +20,7 @@ public class ResourceCentre {
 			option = Helper.readInt("Enter an option > ");
 
 			if (option == 1) {
-				// View all items
+				// View all itemsssssssgwegwegewgf
 				ResourceCentre.viewAllCamcorder(camcorderList);
 				ResourceCentre.viewAllChromebook(chromebookList);
 
