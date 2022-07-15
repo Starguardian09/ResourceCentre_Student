@@ -168,7 +168,7 @@ public class ResourceCentreTest {
 		// write your code here
 
 		//boundary
-		assertNotNull("test if there is valid Camcorder arraylist to loan from", camcorderList);
+		assertNotNull("test if there is valid Camcorder arraylist to loan from", chromebookList);
 		
 		ResourceCentre.addChromebook(chromebookList, cb1);
 		
@@ -185,7 +185,7 @@ public class ResourceCentreTest {
 		
 		//error condition
 		ResourceCentre.addChromebook(chromebookList, cb2);	
-		cc2.setIsAvailable(false);
+		cb2.setIsAvailable(false);
 		ok = ResourceCentre.doLoanChromebook(chromebookList, "CB0012", "8-8-2020" );
 		assertFalse("Test that un-available item is NOT ok to loan?", ok);
 		
